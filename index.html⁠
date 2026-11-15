@@ -1,1 +1,73 @@
 
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SADEEN PS4</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#080b12;color:white;
+ font-family:Arial,sans-serif;text-align:center;
+}
+header{
+ padding:18px 10px;color:#e9c45c;
+ font-size:28px;font-weight:bold;
+ letter-spacing:2px;
+}
+.banner{
+ width:92%;max-width:850px;height:180px;
+ object-fit:cover;border-radius:15px;
+ border:1px solid #b99542;
+ margin:10px auto;
+}
+h2{color:#e9c45c;font-size:21px}
+p{color:#aaa}
+.grid{
+ display:grid;grid-template-columns:repeat(2,1fr);
+ gap:12px;padding:15px;max-width:650px;margin:auto;
+}
+.tile{
+ background:linear-gradient(145deg,#182333,#10141d);
+ border:1px solid #b99542;border-radius:13px;
+ padding:25px 8px;color:#fff;font-size:18px;
+ font-weight:bold;
+}
+.tile span{display:block;font-size:30px;margin-bottom:10px}
+.gold{border-color:#e9c45c;color:#e9c45c}
+footer{color:#888;font-size:12px;padding:25px}
+</style>
+</head>
+<body>
+
+<header>👑 SADEEN</header>
+
+<img class="banner" src="sadeen-banner.png" alt="SADEEN">
+
+<h2>SADEEN PS4 HOST</h2>
+<p>مرحباً بك في صفحة محلات سدين</p>
+
+<div class="grid">
+ <div class="tile gold">
+  <span>⚡</span>GoldHEN
+  <small>قريباً</small>
+ </div>
+ <div class="tile">
+  <span>🧰</span>Tools
+ </div>
+ <div class="tile">
+  <span>📦</span>Payloads
+ </div>
+ <div class="tile">
+  <span>⚙️</span>Settings
+ </div>
+</div>
+
+<footer>
+SADEEN GAMING STORE<br>
+MADABA - JORDAN
+</footer>
+
+</body>
+</html>
