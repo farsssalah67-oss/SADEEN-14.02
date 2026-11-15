@@ -5,68 +5,97 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SADEEN PS4</title>
+
 <style>
-*{box-sizing:border-box}
-body{
- margin:0;background:#080b12;color:white;
- font-family:Arial,sans-serif;text-align:center;
+* {
+  box-sizing: border-box;
 }
-header{
- padding:18px 10px;color:#e9c45c;
- font-size:28px;font-weight:bold;
- letter-spacing:2px;
+body {
+  margin: 0;
+  background: #080808;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
-.banner{
- width:92%;max-width:850px;height:180px;
- object-fit:cover;border-radius:15px;
- border:1px solid #b99542;
- margin:10px auto;
+header {
+  padding: 25px 10px;
+  color: #d4af37;
+  font-size: 30px;
+  font-weight: bold;
 }
-h2{color:#e9c45c;font-size:21px}
-p{color:#aaa}
-.grid{
- display:grid;grid-template-columns:repeat(2,1fr);
- gap:12px;padding:15px;max-width:650px;margin:auto;
+.banner {
+  width: 92%;
+  max-width: 850px;
+  border-radius: 15px;
+  border: 2px solid #d4af37;
 }
-.tile{
- background:linear-gradient(145deg,#182333,#10141d);
- border:1px solid #b99542;border-radius:13px;
- padding:25px 8px;color:#fff;font-size:18px;
- font-weight:bold;
+h2 {
+  color: #d4af37;
+  margin-top: 25px;
 }
-.tile span{display:block;font-size:30px;margin-bottom:10px}
-.gold{border-color:#e9c45c;color:#e9c45c}
-footer{color:#888;font-size:12px;padding:25px}
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+.item {
+  display: block;
+  background: #181818;
+  border: 2px solid #d4af37;
+  color: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.home-btn {
+  display: block;
+  width: 85%;
+  max-width: 350px;
+  margin: 30px auto;
+  padding: 18px;
+  background: #d4af37;
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 12px;
+}
+footer {
+  color: #aaa;
+  padding: 25px;
+}
 </style>
 </head>
+
 <body>
 
-<header>👑 SADEEN</header>
+<header>SADEEN PS4 HOST</header>
 
 <img class="banner" src="sadeen-banner.png" alt="SADEEN">
 
-<h2>SADEEN PS4 HOST</h2>
-<p>مرحباً بك في صفحة محلات سدين</p>
+<h2>مرحباً بك في صفحة SADEEN</h2>
 
-<div class="grid">
- <div class="tile gold">
-  <span>⚡</span>GoldHEN
-  <small>قريباً</small>
- </div>
- <div class="tile">
-  <span>🧰</span>Tools
- </div>
- <div class="tile">
-  <span>📦</span>Payloads
- </div>
- <div class="tile">
-  <span>⚙️</span>Settings
- </div>
+<div class="container">
+
+<a class="item" href="#">🎮 GoldHEN</a>
+
+<a class="item" href="#">🛠️ Tools</a>
+
+<a class="item" href="#">📦 Payloads</a>
+
+<a class="item" href="#">⚙️ Settings</a>
+
+<a class="home-btn" href="./index.html">🏠 SADEEN HOME</a>
+
 </div>
 
 <footer>
-SADEEN GAMING STORE<br>
-MADABA - JORDAN
+SADEEN © 2026
+<br>
+مادبا - مقابل فندق H
 </footer>
 
 </body>
