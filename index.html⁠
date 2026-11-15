@@ -4,22 +4,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080808">
 <title>SADEEN PS4</title>
+
 <style>
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  padding: 0;
   background: #080808;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
 }
+
 header {
   color: #d4af37;
   font-size: 32px;
   font-weight: bold;
   padding: 25px 10px;
 }
+
 .banner {
   display: block;
   width: 92%;
@@ -29,12 +37,18 @@ header {
   border: 2px solid #d4af37;
   border-radius: 15px;
 }
-h2 { color: #d4af37; }
+
+h2 {
+  color: #d4af37;
+  margin: 25px 10px;
+}
+
 .container {
   width: 90%;
   max-width: 700px;
   margin: auto;
 }
+
 .item {
   display: block;
   background: #181818;
@@ -47,6 +61,7 @@ h2 { color: #d4af37; }
   font-weight: bold;
   text-decoration: none;
 }
+
 .home-btn {
   display: block;
   background: #d4af37;
@@ -60,28 +75,39 @@ h2 { color: #d4af37; }
   font-weight: bold;
   text-decoration: none;
 }
+
 footer {
   color: #aaa;
   padding: 25px;
 }
 </style>
 </head>
+
 <body>
 
 <header>SADEEN PS4 HOST</header>
 
-<img class="banner"
-src="./sadeen-banner.png"
+<img
+class="banner"
+src="https://farsssalah67-oss.github.io/SADEEN-14.02/sadeen-banner.png"
 alt="SADEEN Banner">
 
 <h2>مرحباً بك في صفحة SADEEN</h2>
 
 <div class="container">
+
 <a class="item" href="#">🎮 GoldHEN</a>
+
 <a class="item" href="#">🛠️ Tools</a>
+
 <a class="item" href="#">📦 Payloads</a>
+
 <a class="item" href="#">⚙️ Settings</a>
-<a class="home-btn" href="./index.html">🏠 SADEEN HOME</a>
+
+<a class="home-btn" href="./index.html">
+🏠 SADEEN HOME
+</a>
+
 </div>
 
 <footer>
